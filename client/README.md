@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Aranya AI – Empowering Farmers with AI-Driven Cattle Care 🐄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aranya AI is a smart agriculture support system designed to help farmers take better care of cattle using Artificial Intelligence.  
+The system provides disease risk prediction, image-based cattle health analysis, and an AI chatbot to assist farmers with guidance and solutions.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+#Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Cattle Health Monitoring
+- AI-based Disease Risk Prediction
+- Image-based Disease Detection
+- AI Chatbot for Farmer Assistance
+- Multi-language Support
+-  User Authentication (Login / Signup)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+#Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.Frontend
+- React.js
+- HTML, CSS, JavaScript
 
-### `npm run build`
+2.Backend
+- Node.js
+- Express.js
+- MongoDB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.AI & Machine Learning
+- Python
+- TensorFlow / Keras
+- NLP-based Chatbot
+- Image Classification Model
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
+Aranya-AI/
+│
+├── client/ # Frontend (React)
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+├── server/ # Backend (Node + Express)
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── chatbot_api/
+│ └── index.js
+│
+└── README.md
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#Purpose of the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The main goal of Aranya AI is to:
+- Support farmers with early disease detection
+- Reduce cattle health risks
+- Provide easy AI guidance without technical knowledge
+- Improve livestock productivity using AI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# How It Works
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Farmers upload cattle images or symptoms.
+2. AI models analyze health risks and disease patterns.
+3. The chatbot provides instant guidance and recommendations.
+4. Farmers can monitor cattle health through a simple dashboard.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Real-time IoT sensor integration
+- Mobile application
+- More disease datasets
+- Advanced prediction accuracy
